@@ -1,0 +1,44 @@
+/* Set the background color of the game */
+body {
+  background-color: #333;
+}
+
+/* Style the paddles */
+.paddle {
+  position: absolute;
+  width: 15px;
+  height: 70px;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.paddle-left {
+  left: 20px;
+}
+
+.paddle-right {
+  right: 20px;
+}
+
+/* Style the ball */
+.ball {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/* Style the score display */
+.score {
+  position: absolute;
+  top: 20px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+}
